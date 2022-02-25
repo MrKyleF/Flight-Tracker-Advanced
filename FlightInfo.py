@@ -7,7 +7,7 @@ from FlightRadar24.api import FlightRadar24API
 class FlightQueryFilter:
     def setKeywords(self):
         if self.type == "miltary":
-            self.keywords = ["Force","Army","Navy","force","army"]
+            self.keywords = ["Force","Army","Navy","force","army",'Unit ','unit ']
         else:
             self.keywords = []
 
